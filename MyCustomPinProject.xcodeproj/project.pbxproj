@@ -13,6 +13,8 @@
 		E9DE86061C3B616400C87B5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DE86041C3B616400C87B5E /* Main.storyboard */; };
 		E9DE86081C3B616400C87B5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9DE86071C3B616400C87B5E /* Assets.xcassets */; };
 		E9DE860B1C3B616400C87B5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DE86091C3B616400C87B5E /* LaunchScreen.storyboard */; };
+		E9DE86141C3B631900C87B5E /* MyCustomPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DE86131C3B631900C87B5E /* MyCustomPointAnnotation.m */; };
+		E9DE86171C3B63CD00C87B5E /* MyCustomPinAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DE86161C3B63CD00C87B5E /* MyCustomPinAnnotationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		E9DE86071C3B616400C87B5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9DE860A1C3B616400C87B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9DE860C1C3B616400C87B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DE86121C3B631900C87B5E /* MyCustomPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomPointAnnotation.h; sourceTree = "<group>"; };
+		E9DE86131C3B631900C87B5E /* MyCustomPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomPointAnnotation.m; sourceTree = "<group>"; };
+		E9DE86151C3B63CD00C87B5E /* MyCustomPinAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomPinAnnotationView.h; sourceTree = "<group>"; };
+		E9DE86161C3B63CD00C87B5E /* MyCustomPinAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomPinAnnotationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +66,17 @@
 			children = (
 				E9DE85FE1C3B616400C87B5E /* AppDelegate.h */,
 				E9DE85FF1C3B616400C87B5E /* AppDelegate.m */,
+				E9DE86071C3B616400C87B5E /* Assets.xcassets */,
+				E9DE860C1C3B616400C87B5E /* Info.plist */,
+				E9DE86091C3B616400C87B5E /* LaunchScreen.storyboard */,
+				E9DE86041C3B616400C87B5E /* Main.storyboard */,
+				E9DE86151C3B63CD00C87B5E /* MyCustomPinAnnotationView.h */,
+				E9DE86161C3B63CD00C87B5E /* MyCustomPinAnnotationView.m */,
+				E9DE86121C3B631900C87B5E /* MyCustomPointAnnotation.h */,
+				E9DE86131C3B631900C87B5E /* MyCustomPointAnnotation.m */,
+				E9DE85FB1C3B616400C87B5E /* Supporting Files */,
 				E9DE86011C3B616400C87B5E /* ViewController.h */,
 				E9DE86021C3B616400C87B5E /* ViewController.m */,
-				E9DE86041C3B616400C87B5E /* Main.storyboard */,
-				E9DE86071C3B616400C87B5E /* Assets.xcassets */,
-				E9DE86091C3B616400C87B5E /* LaunchScreen.storyboard */,
-				E9DE860C1C3B616400C87B5E /* Info.plist */,
-				E9DE85FB1C3B616400C87B5E /* Supporting Files */,
 			);
 			path = MyCustomPinProject;
 			sourceTree = "<group>";
@@ -151,6 +161,8 @@
 			files = (
 				E9DE86031C3B616400C87B5E /* ViewController.m in Sources */,
 				E9DE86001C3B616400C87B5E /* AppDelegate.m in Sources */,
+				E9DE86171C3B63CD00C87B5E /* MyCustomPinAnnotationView.m in Sources */,
+				E9DE86141C3B631900C87B5E /* MyCustomPointAnnotation.m in Sources */,
 				E9DE85FD1C3B616400C87B5E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
